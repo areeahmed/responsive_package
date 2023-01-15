@@ -1,16 +1,13 @@
 # responsive_package
 
-A new Flutter project.
+## Why this project has been created?
 
-## Getting Started
+this project has been created for learning responsive flutter package.
 
-This project is a starting point for a Flutter application.
+## What happened?
 
-A few resources to get you started if this is your first Flutter project:
+This package is responsive but, not usable for every platforms, for example if you add a drawer to your project and run your project on desktop the design will be not beautiful I can say will not be good design according to UX Standards.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## So What?
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+My Suggestion is: use this package while your application is for specific platforms like Mobile and Tablet, not for multiple platforms like Mobile, Tablet, and Desktop, this Will not be a beautiful design according UX Standards.

@@ -17,6 +17,15 @@ class _HomeState extends State<Home> {
           children: const [Text('Desktop Application')],
         ),
       ),
+      drawer: Column(
+        children: [
+          Container(
+            height: 100,
+            width: 500,
+            color: const Color.fromARGB(255, 255, 208, 0),
+          )
+        ],
+      ),
     );
   }
 }

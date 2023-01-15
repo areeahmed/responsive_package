@@ -10,6 +10,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const Home(),
+
+      ///
+      ///
+      ///* Responsive Layout
+      ///
+      ///
       builder: (context, child) => ResponsiveWrapper.builder(child,
           maxWidth: 1200,
           minWidth: 480,
